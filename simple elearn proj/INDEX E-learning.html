@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <style>
+        /* Your CSS styles */
+        header {
+            background-color: #b66022;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #6060d8;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4c4cad;
+        }
+
+        nav a:last-child {
+            margin-right: 0;
+        }
+
+        .logo {
+            width: 200px; /* Adjust as needed */
+            height: 60%; /* Maintain aspect ratio */
+            margin-right: auto; /* Push other content to the right */
+        }
+
+        h1 {
+            margin: 0 auto; /* Center the heading */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Baloo Paaji 2";
+        }
+
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .topics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .topic {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .topic:hover {
+            transform: translateY(-5px);
+            color: white;
+            background-color: orange;
+        }
+
+        footer {
+            background-color: #6060d8;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .topic a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .topic a:hover {
+            color: #b66022;
+        }
+
+        .topic p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="SASTRA LOGO UNIT - 2023 Ranking.png" alt="E-Learning Platform Logo" class="logo">
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <a href="register.html">Register</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section>
+            <h2>Features</h2>
+            <div class="topics">
+                <div class="topic">
+                    <h3><a href="material.html">Publishing Material and Videos</a></h3>
+                    <p>Access a vast library of educational materials, including videos, documents, and presentations, to enhance your learning experience.</p>
+                </div>
+                <div class="topic">
+                    <h3><a href="register.html">Registration of Learners</a></h3>
+                    <p>Register as a learner to gain access to all the features of our platform, including course enrollment, assignments, and progress tracking.</p>
+                </div>
+                <div class="topic">
+                    <h3><a href="assignments.html">Creating and Managing Assignments</a></h3>
+                    <p>Create assignments for your courses, manage deadlines, and track submissions to ensure a seamless learning process.</p>
+                </div>
+                <div class="topic">
+                    <h3><a href="quizzes.html">Quizzes Condition</a></h3>
+                    <p>Take quizzes to test your understanding of course material and receive immediate feedback to improve your learning outcomes.</p>
+                </div>
+                <div class="topic">
+                    <h3><a href="reposting.html">Reposting</a></h3>
+                    <p>Repost content from other learners or educators to share knowledge and collaborate with your peers.</p>
+                </div>
+                <div class="topic">
+                    <h3><a href="learner-details.html">Course-wise Learner Details</a></h3>
+                    <p>View detailed information about learners enrolled in each course, including progress, grades, and participation.</p>
+                </div>
+                <div class="topic">
+                    <h3><a href="registration.html">Month-wise Registration</a></h3>
+                    <p>Track the number of learners registering for courses each month to analyze trends and optimize course offerings.</p>
+                </div>
+                <div class="topic">
+                    <h3><a href="completion.html">Course-wise Completion and Grade</a></h3>
+                    <p>Monitor learners' progress, track course completion rates, and assign grades to assess mastery of course content.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Learning Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
